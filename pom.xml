@@ -80,6 +80,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>unipanamericana-docker</finalName>
 	</build>
 
 </project>
