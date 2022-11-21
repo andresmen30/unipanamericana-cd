@@ -41,7 +41,6 @@ jobs:
         password: ${{secrets.DOCKER_PASSWORD}}
 
     - name: Deploy Docker
-        uses: appleboy/ssh-action@master
         with:
           script: |
             docker-compose stop unipanamericana-app
