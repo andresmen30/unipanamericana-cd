@@ -18,4 +18,6 @@ public interface StudentMapper {
 
    List<StudentDto> map(List<Student> students);
 
+   Student map(StudentDto studentDto);
+
 }
