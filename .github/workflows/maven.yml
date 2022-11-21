@@ -49,7 +49,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: 206.189.15.94
-          username: andresmen30
+          username: root
           key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsbhoPJBbCZJh0xHrIT10QJC7RTbfbItaAb/e2dKyXTJhufYZPJGee0L9XzjzAqADQSr7JxRtb2gpcXgItpBkWSPp2dzskf+3MD6sHF7i6YNukB0PwNiOkVni8sSmHyqqpTwZvAmOynFWzn6fQyHAyORe8721g3OFTRrkrh7A6IHn/97DsohbZ/3JcNIRbd2x2N36uq7Vubph6p0ZhVbPy6Ys4OfCKpCvuBBfgt54UZZc5HBPEOrUGNQddCnu14DeBu+uIiNe02p6cg67u+azGHdOrWTMgi6gLt7kBaS9K8qYplzH1v+H6sbvjmABdoNIBigeF33wDLseKP/ecTdALZqA5uJTJSEgEAqWho667dMmEsRYH+rBA5J01B97aTAaweuGJ3CrgNtH4ql3o2b+z7/ZhC4k24WHvY1nUabcLHuLZqJfZm21F2gSzCnvDNGYf4CvpIR/QMmt+zgVy2uifLyCMPU3uAUH+CD4L7ekvhlLQ9bkFXma6XFrpMlgje88= finan@LAPTOP-Q8APKPM7
           script: |
             cd /unipanamericana
