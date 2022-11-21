@@ -65,7 +65,6 @@ git push origin main
 
 
 **_Si todo salio bien veremos algo como esto_**
-
 ![img_2.png](img_2.png)
 
 _**3**. Creación de Pipeline GitHub Actions_
@@ -123,6 +122,135 @@ ENTRYPOINT ["java","-jar","/unipanamericana-docker.jar"]
 _**4**. Generación de imagen de Docker_
 
 ![img_4.png](img_4.png)
+
+_**5**. Compilación y despliegue de Docker_
+
+```
+cd unipanamericana/
+```
+```
+docker-compose stop unipanamericana-app
+```
+```
+docker stop unipanamericana-spring
+```
+```
+docker rm unipanamericana-spring
+```
+```
+docker pull andresmen30/unipanamericana-docker:latest
+```
+```
+docker-compose up -d unipanamericana-app
+```
+```
+docker ps -a
+```
+
+## Consumo Servicio /unipanamericana
+
+### url: http://206.189.15.94/unipanamericana/
+
+## Endpoints
+
+### POST /user
+
+Este método crear un registro de estudiante
+
+
+#### Request exitoso creación de usuario
+```
+{
+    "name" : "Sebastian",
+    "lastName" : "Correa",
+    "age" : 40,
+    "cellPhone" : "3108841601",
+    "dni" : "3123123123"
+}
+```
+
+#### Response exitoso creación de estudiante
+```
+Se ha creado correctamente
+```
+
+
+#### Request validación mandatoriedad de campos
+```
+{
+    "name" : "",
+    "lastName" : "",
+    "age" : 40,
+    "cellPhone" : "3108841601",
+    "dni" : "3123123123"
+}
+```
+
+#### Response exitoso creación de estudiante
+```
+{
+    "code": 400,
+    "message": "No puede ser nulo",
+    "details": [
+        "lastName : must not be blank",
+        "name : must not be blank"
+    ]
+}
+```
+
+### PUT /student/{id}
+
+Este método actualiza un registro de estudiante
+
+
+#### Request exitoso actualización de estudiante
+```
+{
+    "name" : "Sebastian",
+    "lastName" : "Juanito",
+    "age" : 13,
+    "cellPhone" : "3108841601",
+    "dni" : "10191273621"
+}
+```
+
+#### Response exitoso creación de estudiante
+```
+Se ha actualizado correctamente
+```
+
+### DELETE /student/{id}
+
+Este método elimina un registro de estudiante
+
+
+#### Request exitoso actualización de estudiante
+```
+/student/{id}
+```
+
+#### Response exitoso creación de estudiante
+```
+Se ha eliminado correctamente
+```
+
+### GET /student
+
+Este método crear un registro de estudiante
+
+
+#### Request exitoso actualización de estudiante
+```
+/student
+```
+
+#### Response exitoso creación de estudiante
+```
+Se ha eliminado correctamente
+```
+
+
+
 
 
 

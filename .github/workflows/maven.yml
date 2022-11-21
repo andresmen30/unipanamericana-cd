@@ -48,8 +48,8 @@ jobs:
       - name: Connect with SSH and Deploy
         uses: appleboy/ssh-action@master
         with:
-          host: 206.189.15.94
-          username: root
+          host: ${{secrets.OCEAN_DIGITAL_HOST}}
+          username: ${{secrets.OCEAN_DIGITAL_USER}}
           key: ${{secrets.SSH_KEY}}
           script: |
             cd unipanamericana/
