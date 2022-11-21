@@ -40,3 +40,14 @@ jobs:
         username: ${{secrets.DOCKER_USERNAME}}
         password: ${{secrets.DOCKER_PASSWORD}}
 
+    - name: Deploy Docker
+        uses: appleboy/ssh-action@master
+        with:
+          script: |
+            docker-compose stop unipanamericana-app
+            docker stop unipanamericana-spring
+            docker rm unipanamericana-spring
+            docker pull andresmen30/unipanamericana-docker:latest
+            docker-compose up -d unipanamericana-app
+            docker ps -a
+
