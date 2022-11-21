@@ -25,7 +25,7 @@ public class StudentController {
 
     @GetMapping()
     private ResponseEntity getAll() {
-        return ResponseEntity.ok(studentService.findAll());
+        return ResponseEntity.ok("OK SAPO HPTA LO LOGRE!!!!");
     }
 
     @PostMapping()
