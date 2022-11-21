@@ -52,7 +52,7 @@ jobs:
           username: root
           key: ${{secrets.SSH_KEY}}
           script: |
-            cd /unipanamericana
+            cd unipanamericana/
             docker-compose stop unipanamericana-app
             docker stop unipanamericana-spring
             docker rm unipanamericana-spring
