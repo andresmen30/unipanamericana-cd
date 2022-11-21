@@ -3,7 +3,7 @@ services:
   unipanamericana-docker:
     build:
       context: .
-    container_name: unipanamericana-docker
+    container_name: unipanamericana-spring
     image: andresmen30/unipanamericana-docker:latest
     ports:
       - "8080:8080"
