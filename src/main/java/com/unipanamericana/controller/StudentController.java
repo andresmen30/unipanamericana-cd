@@ -22,7 +22,7 @@ public class StudentController {
 
    @GetMapping()
    private ResponseEntity getAll() {
-      return ResponseEntity.ok(studentService.findAll());
+      return ResponseEntity.ok("PRUEBA OK..");
    }
 
    @PostMapping()
