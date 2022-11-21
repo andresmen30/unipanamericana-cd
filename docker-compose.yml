@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  unipanamericana-docker:
+    build:
+      context: .
+    container_name: unipanamericana-docker
+    image: andresmen30/unipanamericana-docker:latest
+    ports:
+      - "8080:8080"
+volumes:
+  dbvol:
