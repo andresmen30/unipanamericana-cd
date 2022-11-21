@@ -246,12 +246,23 @@ Este método crear un registro de estudiante
 
 #### Response exitoso creación de estudiante
 ```
-Se ha eliminado correctamente
+[
+    {
+        "name": "Sebastian",
+        "lastName": "Mendez",
+        "age": 40,
+        "cellPhone": "3108841601",
+        "dni": "3123123123"
+    },
+    {
+        "name": "Jose",
+        "lastName": "Manuel",
+        "age": 40,
+        "cellPhone": "3108841601",
+        "dni": "3123123123"
+    }
+]
 ```
-
-
-
-
 
 
 ###### Documentación Postman [https://documenter.getpostman.com/view/18030682/2s8YmUKyqz](https://documenter.getpostman.com/view/8454301/UVkmRHEc).
