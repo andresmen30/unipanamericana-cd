@@ -41,5 +41,5 @@ jobs:
         password: ${{secrets.DOCKER_PASSWORD}}
 
     - name: deploy image Docker
-       run: docker run -p 8080:8080 andresmen30/unipanamericana-docker
+      run: docker run -p 8080:8080 andresmen30/unipanamericana-docker
 
