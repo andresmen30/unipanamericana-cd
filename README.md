@@ -126,6 +126,10 @@ _**4**. Generación de imagen de Docker_
 
 
 
+###### Documentación Postman [https://documenter.getpostman.com/view/18030682/2s8YmUKyqz](https://documenter.getpostman.com/view/8454301/UVkmRHEc).
+
+
+
 
 ## Construido con 🛠️
 
@@ -140,3 +144,6 @@ _**4**. [GitHub Actions](https://github.com/features/actions)_ - Automatización
 _**5**. [Base de datos H2](https://www.mysql.com/)_ - Base de datos relacional
 
 _**7**. [Maven](https://maven.apache.org/)_ - Administrar de dependencias
+
+
+###### Documentación Postman [https://documenter.getpostman.com/view/18030682/2s8YmUKyqz](https://documenter.getpostman.com/view/8454301/UVkmRHEc).
