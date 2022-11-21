@@ -39,10 +39,3 @@ jobs:
         dockerfile: Dockerfile
         username: ${{secrets.DOCKER_USERNAME}}
         password: ${{secrets.DOCKER_PASSWORD}}
-
-    - name: Pull Docker
-      run: docker pull andresmen30/unipanamericana-docker
-
-    - name: Running Docker
-      run: docker run -p 8080:8080 andresmen30/unipanamericana-docker
-
