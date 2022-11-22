@@ -282,7 +282,7 @@ _**4**. [GitHub Actions](https://github.com/features/actions)_ - Automatización
 
 _**5**. [Base de datos H2](https://www.mysql.com/)_ - Base de datos relacional
 
-_**7**. [Maven](https://maven.apache.org/)_ - Administrar de dependencias
+_**7**. [Maven](https://maven.apache.org/)_ - Administrar de dependencia
 
 
 ###### Documentación Postman [https://documenter.getpostman.com/view/18030682/2s8YmUKyqz](https://documenter.getpostman.com/view/18030682/2s8YmUKyqz).
