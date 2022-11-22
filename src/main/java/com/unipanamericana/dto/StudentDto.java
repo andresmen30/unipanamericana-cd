@@ -12,7 +12,6 @@ public class StudentDto {
 
     @NotBlank
     private String name;
-    @NotBlank
     private String lastName;
     @NotNull
     private int age;
