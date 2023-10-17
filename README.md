@@ -2,14 +2,6 @@
 
 _Proyecto de registro de estudiantes, usando GitHub Action y Docker_
 
-## Integrantes
-
-* _Andrés Felipe Mendez_
-* _Sebastian Correa_
-* _Juan Sebastian Cruz_
-* _Cristian Alberto Loza_
-* _Oscar Eduardo Varon_
-
 ## Comenzando  🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
